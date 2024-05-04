@@ -394,8 +394,12 @@ td, th {
 
 @media screen and (max-width: 480px) {
 
-	main {
+	main, .caixa, .lista, .principal, .mapa, .video {
 		width: auto;
+	}
+
+	.bordamobile {
+		margin-left: 20px;
 	}
 
 	.logo {
@@ -410,7 +414,7 @@ td, th {
 	}
 
 	body {
-		margin-right: -20px;
+		margin-right: -25px;
 	}
 
 	.caixa {
