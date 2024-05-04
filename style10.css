@@ -394,7 +394,7 @@ td, th {
 
 @media screen and (max-width: 480px) {
 
-	main, .caixa, .lista, .principal, .mapa, .video {
+	main, .lista, .principal, .mapa, .video {
 		width: auto;
 	}
 
@@ -410,7 +410,7 @@ td, th {
 	}
 
 	body {
-		margin-right: -50px;
+		margin-right: -20px;
 	}
 
 	.caixa {
@@ -491,7 +491,7 @@ td, th {
 	/* Fazendo margem no main da página contato */
 
 	main form, main table {
-		margin: 30px;
+		margin-left: 30px;
 	}
 
 
