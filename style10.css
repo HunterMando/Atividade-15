@@ -389,6 +389,7 @@ td, th {
 	}
 
 	body {
+		width: 480px;
 		margin-right: -25px;
 	}
 
@@ -397,7 +398,7 @@ td, th {
 		width: 100%;
 	}
 
-	nav li .m3 {
+	/*nav li .m3 {
 		position: absolute;
 		top: 2px;
 		left: 90px;
@@ -405,7 +406,7 @@ td, th {
 		display: none;
 		margin-right: -100px;
 		padding: 8px 8px 8px 0%;
-	}
+	}*/
 
 	.banner2, .banner3 {
 		margin: auto;
