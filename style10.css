@@ -394,7 +394,7 @@ td, th {
 
 @media screen and (max-width: 480px) {
 
-	main, .lista, .principal, .mapa, .video {
+	main, .principal, .mapa, .video {
 		width: auto;
 	}
 
