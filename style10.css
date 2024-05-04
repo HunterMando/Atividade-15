@@ -311,10 +311,10 @@ d é margem horizontal da esquerda)
 	margin: 0 0 10px 0;
 }
 
-.label-padrao {
+/*.label-padrao {
 	display: block;
 	margin: 0 0 10px;
-}
+}*/
 
 .botao-padrao {
 	margin: 20px 0 40px 0;
@@ -323,6 +323,26 @@ d é margem horizontal da esquerda)
 fieldset {
 	margin: 20px 0;
 }
+
+/* css do certeza */
+
+
+.certeza {
+	display: none;
+}
+
+.cursor2:checked ~ .certeza{ /* "~" significa irmão */
+	display: block;
+	font-weight: bold;
+	color: orange;
+}
+
+.cursor1:checked ~ .certeza{
+	display: block;
+	font-weight: bold;
+	color: orange;
+}
+
 
 .checkbox {
 	display: block;
@@ -348,8 +368,9 @@ fieldset {
 	cursor: pointer;
 }
 
-.cursor {
+.cursor1, .cursor2, .cursor3 {
 	cursor: pointer;
+	margin-bottom: 8px;
 }
 
 table {
@@ -389,7 +410,6 @@ td, th {
 	}
 
 	body {
-		width: 480px;
 		margin-right: -25px;
 	}
 
@@ -398,7 +418,7 @@ td, th {
 		width: 100%;
 	}
 
-	/*nav li .m3 {
+	nav li .m3 {
 		position: absolute;
 		top: 2px;
 		left: 90px;
@@ -406,7 +426,7 @@ td, th {
 		display: none;
 		margin-right: -100px;
 		padding: 8px 8px 8px 0%;
-	}*/
+	}	
 
 	.banner2, .banner3 {
 		margin: auto;
