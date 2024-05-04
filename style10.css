@@ -1,36 +1,3 @@
-@media screen and (max-width: 480px){
-	body {
-		background: yellow;
-	}
-
-	main, .caixa, .principal, .retangulo, .lista, .menu, .mapa, .video {
-		width: auto;
-
-	}
-
-	nav {
-		position: static;
-	}
-
-	.banner2 {
-	height: 270px;
-	width: 410px;
-	margin-left: 500px;
-	margin-top: -500px;
-	margin-bottom: 40px;
-	box-shadow: 10px 10px 5px grey;
-	}
-
-	.banner3 {
-		height: 270px;
-		width: 410px;
-		margin-left: 5000px;
-		margin-top: 340px;
-		box-shadow: 10px 10px 5px grey;
-	}
-
-}
-
 body {
 	font-family: 'Montserrat', sans-serif;
 	background: lightcyan;
@@ -402,4 +369,25 @@ tbody {
 td, th {
 	border: 1px solid black;
 	padding: 8px 10px;
+}
+
+@media screen and (max-width: 480px) {
+
+	body {
+		width: 100%;
+	}
+
+	main {
+	width: 70%;
+	margin: 4px;
+	}
+
+	.caixa {
+	position: static;
+	margin: 0 auto;
+	}
+
+	.banner2, .banner3 {
+		margin: 0 auto;
+	}
 }
